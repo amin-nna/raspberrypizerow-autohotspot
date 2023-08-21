@@ -4,7 +4,7 @@
 wpa_cli -i wlan0 reconfigure
 
 # Sleep for 60 seconds to give time for connection
-sleep 60
+sleep 120
 
 # get the currently connected WiFi network
 connected_ssid=$(iwgetid -r)
