@@ -92,7 +92,11 @@
     <h2>Actions</h2>
     <ul>
         <li><a href="/home/ilce/logs" class="action-button">Access base station logs</a></li>
-        <li><a href="#" class="action-button">Add new WiFi network details</a></li>
+        <form action="add_wifi.php" method="post">
+            <input type="text" name="ssid" placeholder="SSID">
+            <input type="password" name="password" placeholder="Password">
+            <input type="submit" value="Add WiFi">
+        </form>
         <li><a href="#" class="action-button">Try to connect to WiFi network</a></li>
         <li><a href="#" class="action-button">Reboot the base station</a></li>
         <li><a href="#" class="action-button">(Re)start maintenance tunnel</a></li>
