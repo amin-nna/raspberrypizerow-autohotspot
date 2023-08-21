@@ -6,8 +6,8 @@ Installation after a fresh install of Raspbian Buster Lite:
 ```
 sudo apt update && sudo apt upgrade
 sudo apt install git 
-git clone https://github.com/amin-nna/rogue-captive-autohotspot
-cd rogue-captive-autohotspot
+git clone https://github.com/amin-nna/raspberrypizerow-autohotspot
+cd raspberrypizerow-autohotspot
 chmod +x install.sh
 sudo ./install.sh
 sudo reboot
