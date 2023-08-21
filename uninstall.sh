@@ -17,7 +17,7 @@ rm -f /etc/systemd/system/autohotspot.service
 
 # Step 3: Remove the autohotspot script
 echo "Removing autohotspot script..."
-rm -f /rogue-captive-autohotspot/autohotspot.sh
+rm -f /raspberrypizerow-autohotspot/autohotspot.sh
 
 # Step 4: Remove the custom dnsmasq and hostapd configurations
 echo "Removing custom dnsmasq and hostapd configurations..."
