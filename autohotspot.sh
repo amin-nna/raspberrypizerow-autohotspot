@@ -3,8 +3,8 @@
 # Use wpa_cli to reconfigure wpa_supplicant and try to connect to known networks
 wpa_cli -i wlan0 reconfigure
 
-# Sleep for 15 seconds to give time for connection
-sleep 30
+# Sleep for 60 seconds to give time for connection
+sleep 60
 
 # get the currently connected WiFi network
 connected_ssid=$(iwgetid -r)
