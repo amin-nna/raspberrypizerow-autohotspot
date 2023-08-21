@@ -97,7 +97,6 @@
             <input type="password" name="password" placeholder="Password">
             <input type="submit" value="Add WiFi">
         </form>
-        <li><a href="#" class="action-button">Try to connect to WiFi network</a></li>
         <li><a href="#" class="action-button">Reboot the base station</a></li>
         <li><a href="#" class="action-button">(Re)start maintenance tunnel</a></li>
         <li><a href="#" class="action-button">Show status of connected sensors</a></li>
